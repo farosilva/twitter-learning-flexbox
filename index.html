@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Learning Flexbox</title>
+  </head>
+  <body>
+    <header id="main-header">
+      <div class="container">
+        <nav>
+          <ul>
+            <li>
+              <img src="/assets/home.svg" alt="Home"> Home
+            </li>
+            <li>
+              <img src="/assets/bell.svg" alt="Home"> Notifications
+            </li>
+            <li>
+              <img src="/assets/mail.svg" alt="Home"> Messages
+            </li>
+          </ul>
+        </nav>
+        <img class="logo" src="/assets/logo.svg" alt="Logo Twitter">
+        <div class="side">
+          <input type="text" placeholder="Search on Twitter">
+          <img src="/assets/avatar.png" alt="Avatar">
+          <button>Tweet</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="banner">
+      <h1>Learning Flexbox</h1>
+    </div>
+
+    <div class="bar">
+      <div class="container">
+        <ul>
+          <li class="active">
+            <span>Tweets</span>
+            <strong>3931</strong>
+          </li>
+          <li>
+            <span>Followings</span>
+            <strong>654</strong>
+          </li>
+          <li>
+            <span>Followers</span>
+            <strong>387</strong>
+          </li>
+          <li>
+            <span>Favorites</span>
+            <strong>265</strong>
+          </li>
+          <li>
+            <span>Lists</span>
+            <strong>8</strong>
+          </li>
+          <li>
+            <span>Moments</span>
+            <strong>0</strong>
+          </li>
+        </ul>
+
+        <div class="actions">
+          <button>Follow</button>
+          <img src="/assets/more.svg" alt="More">
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper container">
+      <aside class="profile">
+        <img class="avatar" src="/assets/avatar.png" alt="Avatar">
+        <h1>Fabricio Silva</h1>
+        <span>@farosilva</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi magnam mollitia debitis aut perspiciatis illo.</p>
+
+        <ul class="list">
+          <li><img src="/assets/map.svg" alt="Place"> SBC, Brazil</li>
+          <li><img src="/assets/link.svg" alt="URL"> @farosilva</li>
+          <li><img src="/assets/clock.svg" alt="Clock"> Joined September 2020</li>
+          <li><img src="/assets/star.svg" alt="Star"> Born the 26th of March 1973</li>
+        </ul>
+
+        <div class="widget followers">
+          <strong> <img src="/assets/user.svg" alt="User"> 73 followers that ypu know</strong>
+
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+
+        <div class="widget images">
+          <strong> <img src="/assets/image.svg" alt="Umage"> 286 photos and videos</strong>
+
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </aside>
+
+      <section class="timeline">
+        <nav>
+          <a href="#" class="active">Tweets</a>
+          <a href="#">Tweets and replies</a>
+          <a href="#">Medias</a>
+        </nav>
+
+        <ul class="tweets">
+          <li>
+            <img src="/assets/avatar.png" alt="Avatar">
+            <div class="info">
+              <strong>Fabricio Silva <span>@farosilva</span></strong>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis assumenda magni blanditiis dolore, id nesciunt, accusamus nobis, corporis incidunt enim suscipit animi optio non! Blanditiis expedita fuga natus distinctio amet?</p>
+              <div class="actions">
+                <a href="#"><img src="/assets/message.svg" alt="Comments"> 3</a>
+                <a href="#"><img src="/assets/refresh.svg" alt="Refresh"> 4</a>
+                <a href="#"><img src="/assets/heart.svg" alt="Heart"> 5</a>
+                <a href="#"><img src="/assets/mail.svg" alt="Mail"></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="/assets/avatar.png" alt="Avatar">
+            <div class="info">
+              <strong>Fabricio Silva <span>@farosilva</span></strong>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad dolores sit atque minus dolorum, ipsa est expedita, laudantium quibusdam accusantium possimus eos repudiandae pariatur, et corrupti ducimus nihil dolorem autem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero ea nisi pariatur provident expedita, ullam aliquam optio natus reprehenderit veniam nihil explicabo facere beatae quis qui officia cupiditate placeat molestiae.</p>
+              <div class="actions">
+                <a href="#"><img src="/assets/message.svg" alt="Comments"> 3</a>
+                <a href="#"><img src="/assets/refresh.svg" alt="Refresh"> 4</a>
+                <a href="#"><img src="/assets/heart.svg" alt="Heart"> 5</a>
+                <a href="#"><img src="/assets/mail.svg" alt="Mail"></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="/assets/avatar.png" alt="Avatar">
+            <div class="info">
+              <strong>Fabricio Silva <span>@farosilva</span></strong>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione officia ipsam ad illum vitae! Doloremque ex beatae officia esse cumque porro itaque, omnis quisquam, repudiandae quam animi voluptate recusandae nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odio inventore quaerat accusamus. In aut non fugiat temporibus sint, provident quasi. Similique illum repellendus expedita officiis soluta minima vel saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ipsa? Iste beatae, cupiditate delectus neque repellendus esse, tenetur natus vitae harum ratione suscipit, ex assumenda nam blanditiis perspiciatis corporis nulla?</p>
+              <div class="actions">
+                <a href="#"><img src="/assets/message.svg" alt="Comments"> 3</a>
+                <a href="#"><img src="/assets/refresh.svg" alt="Refresh"> 4</a>
+                <a href="#"><img src="/assets/heart.svg" alt="Heart"> 5</a>
+                <a href="#"><img src="/assets/mail.svg" alt="Mail"></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="/assets/avatar.png" alt="Avatar">
+            <div class="info">
+              <strong>Fabricio Silva <span>@farosilva</span></strong>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo incidunt repudiandae eaque magni ut in aliquam praesentium perferendis iure veritatis nostrum atque dignissimos repellendus sapiente, nam illum voluptatem repellat totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero excepturi minus, in ut accusantium facilis doloribus libero amet repudiandae fuga atque veritatis minima explicabo delectus esse natus reiciendis! Iusto, cumque!</p>
+              <div class="actions">
+                <a href="#"><img src="/assets/message.svg" alt="Comments"> 3</a>
+                <a href="#"><img src="/assets/refresh.svg" alt="Refresh"> 4</a>
+                <a href="#"><img src="/assets/heart.svg" alt="Heart"> 5</a>
+                <a href="#"><img src="/assets/mail.svg" alt="Mail"></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="/assets/avatar.png" alt="Avatar">
+            <div class="info">
+              <strong>Fabricio Silva <span>@farosilva</span></strong>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium aut, laborum eveniet consequuntur, unde atque at ea aliquid quia, quam vitae neque corporis perspiciatis ratione repudiandae deleniti perferendis possimus nisi.</p>
+              <div class="actions">
+                <a href="#"><img src="/assets/message.svg" alt="Comments"> 3</a>
+                <a href="#"><img src="/assets/refresh.svg" alt="Refresh"> 4</a>
+                <a href="#"><img src="/assets/heart.svg" alt="Heart"> 5</a>
+                <a href="#"><img src="/assets/mail.svg" alt="Mail"></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="/assets/avatar.png" alt="Avatar">
+            <div class="info">
+              <strong>Fabricio Silva <span>@farosilva</span></strong>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eius quod iste. Officiis autem corporis, sed, perspiciatis animi modi laboriosam doloribus tenetur ea eos minima, unde minus enim. Corrupti, quisquam.</p>
+              <div class="actions">
+                <a href="#"><img src="/assets/message.svg" alt="Comments"> 3</a>
+                <a href="#"><img src="/assets/refresh.svg" alt="Refresh"> 4</a>
+                <a href="#"><img src="/assets/heart.svg" alt="Heart"> 5</a>
+                <a href="#"><img src="/assets/mail.svg" alt="Mail"></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="/assets/avatar.png" alt="Avatar">
+            <div class="info">
+              <strong>Fabricio Silva <span>@farosilva</span></strong>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, aut aliquid labore veniam dolores culpa animi! Itaque qui, ipsa explicabo soluta nam nulla atque ea praesentium vel deserunt distinctio quidem.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum consectetur blanditiis quod aliquid eaque veniam cum, itaque hic soluta molestias fuga dicta cupiditate quas tempore. Minus itaque repellat sequi adipisci. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita quae eaque pariatur, facilis repudiandae fugiat numquam magnam laborum saepe velit! Sint blanditiis magni voluptatibus velit amet, soluta possimus dolorum illo?</p>
+              <div class="actions">
+                <a href="#"><img src="/assets/message.svg" alt="Comments"> 3</a>
+                <a href="#"><img src="/assets/refresh.svg" alt="Refresh"> 4</a>
+                <a href="#"><img src="/assets/heart.svg" alt="Heart"> 5</a>
+                <a href="#"><img src="/assets/mail.svg" alt="Mail"></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="/assets/avatar.png" alt="Avatar">
+            <div class="info">
+              <strong>Fabricio Silva <span>@farosilva</span></strong>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores fugit maxime hic autem neque similique, tempora earum sapiente quae quos, consectetur dolorum voluptates dolorem provident reprehenderit tempore itaque voluptas necessitatibus.</p>
+              <div class="actions">
+                <a href="#"><img src="/assets/message.svg" alt="Comments"> 3</a>
+                <a href="#"><img src="/assets/refresh.svg" alt="Refresh"> 4</a>
+                <a href="#"><img src="/assets/heart.svg" alt="Heart"> 5</a>
+                <a href="#"><img src="/assets/mail.svg" alt="Mail"></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="/assets/avatar.png" alt="Avatar">
+            <div class="info">
+              <strong>Fabricio Silva <span>@farosilva</span></strong>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos quisquam voluptatum neque repellendus cupiditate accusantium minus ipsum, illo corporis enim ex, odit dolor molestias minima laudantium asperiores impedit blanditiis quaerat?</p>
+              <div class="actions">
+                <a href="#"><img src="/assets/message.svg" alt="Comments"> 3</a>
+                <a href="#"><img src="/assets/refresh.svg" alt="Refresh"> 4</a>
+                <a href="#"><img src="/assets/heart.svg" alt="Heart"> 5</a>
+                <a href="#"><img src="/assets/mail.svg" alt="Mail"></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="/assets/avatar.png" alt="Avatar">
+            <div class="info">
+              <strong>Fabricio Silva <span>@farosilva</span></strong>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil nesciunt facilis quisquam necessitatibus officia quibusdam tempore quas, vero a. Ea quaerat nihil nesciunt voluptates amet, dolorum perferendis accusantium! Sequi, vero.</p>
+              <div class="actions">
+                <a href="#"><img src="/assets/message.svg" alt="Comments"> 3</a>
+                <a href="#"><img src="/assets/refresh.svg" alt="Refresh"> 4</a>
+                <a href="#"><img src="/assets/heart.svg" alt="Heart"> 5</a>
+                <a href="#"><img src="/assets/mail.svg" alt="Mail"></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <aside class="widgets">
+        <div class="widget follow">
+          <div class="title">
+            <strong>Who to follow</strong>
+            <a href="#">Refresh</a>
+            <a href="#">View all</a>
+          </div>
+
+          <ul>
+            <li>
+              <div class="profile">
+                <img src="/assets/img1.png" alt="Avatar">
+                <div class="info">
+                  <strong>Paul Joe <span>@joepaul</span></strong>
+                  <button>Follow</button>
+                </div>
+              </div>
+              <a href="#">X</a>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="/assets/img2.png" alt="Avatar">
+                <div class="info">
+                  <strong>Phillip Joe <span>@joephillip</span></strong>
+                  <button>Follow</button>
+                </div>
+              </div>
+              <a href="#">X</a>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="/assets/img3.png" alt="Avatar">
+                <div class="info">
+                  <strong>Janet Joe <span>@joejanet</span></strong>
+                  <button>Follow</button>
+                </div>
+              </div>
+              <a href="#">X</a>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="/assets/img4.png" alt="Avatar">
+                <div class="info">
+                  <strong>Steve Joe <span>@joesteve</span></strong>
+                  <button>Follow</button>
+                </div>
+              </div>
+              <a href="#">X</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- <div class="widget trends">
+          
+        </div> -->
+      </aside>
+    </div>
+
+  </body>
+</html>
